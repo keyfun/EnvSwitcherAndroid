@@ -1,4 +1,4 @@
-package net.keyfunapp.EnvSwitcher;
+package net.keyfunapp.lib.envswitcher;
 
 import android.view.MotionEvent;
 
@@ -6,7 +6,7 @@ import android.view.MotionEvent;
  * Created by huikey on 9/3/16.
  */
 public abstract class SimpleTwoFingerLongPressDetector {
-    private static final int TIMEOUT = 1000;
+    private static final int TIMEOUT = 500;
     private long mSecondFingerDownTime = 0;
 
     private void reset() {
